@@ -1,0 +1,1170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+/*Global*/
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/*header*/
+header {
+    height: 90px;
+    width: 100%;
+    background: #1354DC;   
+    position: fixed;
+    z-index: 1;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.5s ease-out;
+}
+header a:hover{
+    font-size: 20px;
+}
+
+
+header li, header.button {
+    list-style: none;
+    display: inline;
+    padding: 0 25px ;
+}
+
+
+ header #branding {
+    position: absolute;
+    top: 18px;
+    left: 80px;
+    transition-property: margin;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#branding:hover {
+    margin-top: -10px;
+}
+
+
+header nav {
+    
+    position: absolute;
+    top: 35px;
+    right: 60px;
+}
+
+header .button-0 {
+    width: 130px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #1354DC;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+/* Sub-Head (section2) */
+.height{
+    height: 655px;
+    background: #1354DC;
+}
+.sub-head h1{
+    position: absolute;
+    height: 271px;
+    left: 87px;
+    top: 100px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    font-size: 75px;
+    line-height: 112px;
+    letter-spacing: -0.045em;
+    font-weight: bold;
+    animation-name: Heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes Heading {
+    0% { left: -80px};
+    100% {left: 87px}
+}
+
+.sub-head p {
+    position: absolute;
+    left: 87px;
+    top: 415px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    line-height: 27px;
+    animation-name: Para;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes Para {
+    0% { top: 150px}
+    100% {top: 415px}
+}
+
+
+.toyota {
+    position: absolute;
+    left: 357px;
+    top: 210px;
+    transition-property: margin;
+    transition-duration: 0.5s;
+
+}
+
+.toyota:hover {
+    margin-top: 10px;
+}
+.toyota img{
+    width: 100%;
+}
+  
+.button-1 {
+    position: absolute;
+    top: 520px;
+    left: 87px;
+    width: 130px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #FD7B7E;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+
+    opacity: 0;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    transition-property: background;
+    transition-duration: 0.5s;
+    
+    
+ }
+ @keyframes btn {
+    0% { opacity: 0}
+    100% {opacity: 1}
+}
+
+.button-1:hover {
+    background: #1354DC;
+    overflow: hidden; 
+    
+}
+
+ /*Eligibility*/
+  .elig {
+    position: absolute;
+    width: 540px;
+    height: 244px;
+    left: 87px;
+    top: 700px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    
+    
+  }
+  .elig h1 {
+      font-size: 55px;
+  }
+
+  .group {
+    position: absolute;
+    right: 75px;
+    top: 840px;
+    overflow: hidden;
+  }
+
+
+  .bullet ul {
+    position: absolute;
+    left: 35px;
+    top: 450px;
+    list-style: none;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+    
+      
+  }
+
+  .bullet li {
+      padding-bottom: 10px;
+      list-style-image: url(../Images/tick.png);
+  }
+
+
+
+  /*Available cars*/
+
+
+.cars {
+    position: absolute;
+left: 98px;
+top: 1500px;
+}
+
+.cars h1 {
+    font-size: 55px;
+    
+}
+
+.cars p {
+    font-size: 22px;
+    
+}
+
+.car1 {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.car2 {
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.car3 {
+    position: absolute;
+    left: 0px;
+    top: 600px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.car4 {
+    position: absolute;
+    left: 600px;
+    top: 600px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/*Contact Us*/
+#chart {
+    position: absolute;
+height: 600px;
+width: 100%;
+left: 0px;
+top: 2580px;
+background: #1354DC;
+overflow: hidden;
+}
+
+.chart-bar {
+    position: absolute;
+width: 220px;
+height: 321px;
+left: 230px;
+top: 100px;
+}
+
+.contact {
+    position: absolute;
+width: 100%;
+height: 158px;
+left: 600px;
+top: 90px;
+color: #fff;
+font-size: 15px;
+line-height: 1.5em;
+}
+
+.contact h1 {
+    font-size: 65px;
+    margin-left: 0%;
+   
+}
+
+
+/*Waiting list*/
+#list {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 3130px;
+background: #F8F8F9;
+}
+
+
+
+
+#list .waiting-list{
+    position: absolute;
+width: 489px;
+height: 336px;
+left: 150px;
+top: 50px;
+    }
+
+    .waiting-list h1 {
+        font-size: 60px;
+        border-bottom: 2px solid #FD7B7E;
+        width: 340px;
+
+    }
+
+    .waiting-list p {
+        font-size: 18px;
+        line-height: 1.6em;
+        position: absolute;
+        top: 150px;
+
+    }
+
+
+ #list form{
+    position: absolute;
+    left: 780px;
+    top: 180px;
+    width: 304px;
+    height: 60px;
+    font-size: 18px;
+    box-sizing: border-box;
+    line-height: 0%;
+        }
+
+ #info input   {
+    width: 100%;
+    height: 17px;
+    margin-bottom: 20px;
+    background: #F8F8F9 ;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #979797;
+    font-size: 16px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}        
+
+select{
+   width: 100%;
+   border: none;
+    outline: none;
+    border-bottom: 1px solid #979797;
+    background: #F8F8F9 ;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin-top: 15px; 
+}        
+
+      .button-2 {
+            width: 130px;
+            height: 50px;
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 30px;
+            color: #fff;
+            background-color: #FD7B7E;
+            font-weight: bold;
+            margin-top: 40px;
+            outline: none;
+            cursor: pointer;
+        
+         }
+
+
+/*About Us*/
+#About-us {
+    position: absolute;
+    left: 0px;
+    top: 3856px; 
+    width: 100%;
+    overflow: hidden;  
+    
+}    
+
+.about{
+    margin: 0 15%;
+}
+        
+#About-us h1 {
+font-family: sans-serif;
+font-size: 60px;
+line-height: 75px;
+letter-spacing: -0.045em;
+text-align: center;
+
+}
+
+#About-us p {
+font-family: sans-serif;
+font-size: 18px;
+line-height: 1.6em;
+text-align: center;
+letter-spacing: -0.03em;
+}
+
+
+
+/*Footer*/
+#main-footer {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    left: 0px;
+    top: 4560px;
+    background: #1354DC;
+    overflow: hidden;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.5s ease-out;
+}
+
+footer a:hover{
+    font-size: 20px;
+}
+
+footer li, footer .button {
+    list-style: none;
+    display: inline;
+    padding: 0 25px ;
+}
+
+
+footer #brand {
+    position: absolute;
+    top: 75px;
+    left: 70px;
+    color: #fff;
+}
+
+
+footer #brand p {
+    margin-left: 10px;
+    position: absolute;
+    top: 60px;
+}
+
+
+
+footer nav {
+    position: absolute;
+    top: 110px;
+    right: 244px;
+    
+}
+   
+footer .button-0 {
+    position: absolute;
+    top: 94px;
+    right: 80px;
+    width: 130px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #1354DC;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    transition-property: margin;
+    transition-duration: 0.5s;
+}
+
+
+footer .social {
+    position: absolute;
+    top: 85px;
+    left: 450px;
+}
+
+header .menu-btn {
+    display: none;
+ }
+
+
+
+
+
+
+
+ @media screen and (max-width: 1024px ){
+ /*header*/
+  header #branding {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+   }
+   
+ 
+  /*Eligibility*/
+  .elig {
+    position: absolute;
+    width: 400px;
+    height: 244px;
+    left: 20px;
+    top: 700px;
+  }
+
+  .group {
+    position: absolute;
+    right: 20px;
+    top: 840px;
+    overflow: hidden;
+  } 
+  .group img{
+      width: 80%;
+      overflow: hidden;
+      float: right;
+      margin-right: 20px;
+  }
+
+  /*Available Cars*/
+  .cars {
+    position: absolute;
+    left: 30px;
+    top: 1550px;
+   }
+
+.car2 {
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+.car4 {
+    position: absolute;
+    left: 450px;
+    top: 600px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*Contact Us*/
+  .chart-bar {
+    position: absolute;
+    width: 220px;
+    height: 321px;
+    left: 90px;
+    top: 100px;
+   
+    }
+
+.contact {
+    position: absolute;
+width: 100%;
+height: 158px;
+left: 400px;
+top: 50px;
+color: #fff;
+font-size: 15px;
+line-height: 1.5em;
+}
+
+/*Waiting*/
+   #list .waiting-list{
+    position: absolute;
+    width: 389px;
+    height: 336px;
+    left: 50px;
+    top: 50px;
+    }
+
+ #list form{
+    position: absolute;
+    left: 500px;
+    top: 180px;
+    width: 304px;
+        height: 60px;
+    font-size: 18px;
+        box-sizing: border-box;
+        line-height: 0%;
+        
+  }
+
+  /*About Us*/
+#About-us {
+    position: absolute;
+    left: 0px;
+    top: 3756px; 
+    width: 100%;
+    overflow: hidden;  
+    
+}  
+
+  /*footer*/
+  footer .social {
+    position: absolute;
+    top: 155px;
+    left: 350px;
+   } 
+
+
+ }
+
+ 
+
+
+
+
+
+
+
+/*media queries*/
+@media screen and (max-width: 768px) {
+   /*Hamburger*/
+
+    header li{
+       display: block;
+       margin-top: 90px;
+       text-align: center;
+       font-weight: bold;
+   }
+   header nav{
+       position: unset;
+   }
+   header a{
+       color: #333;
+   }
+
+   header .menu {
+    clear: both;
+    max-height: 0;
+    min-height: 0;
+    transition-property: min-height;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    overflow: hidden;
+    background: #fff;
+    }
+
+    header .menu-icon {
+        padding: 28px 20px;
+        position: relative;
+        float: right;
+        cursor: pointer;
+        margin-top: 28px;
+    }
+
+    header .menu-icon .nav-icon {
+        background: #fff;
+        display: block;
+        height: 3px;
+        width: 25px;
+        position: relative;
+        transition-property: background;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-out;
+    }
+
+    header .menu-icon .nav-icon:before {
+        background: #fff;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 10px;
+        transition: all 0.4s ease-out;
+    }
+
+    header .menu-icon .nav-icon:after {
+        background: #fff;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -10px;
+        transition: all 0.2s ease-out;
+    }
+
+    header .menu-btn {
+        display: none;
+     }
+    
+    header .menu-btn:checked ~ .menu {
+        min-height: 100vh;
+    }
+    
+    header .menu-btn:checked ~ .menu-icon .nav-icon {
+        background: transparent;
+    }
+    
+    header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+       transform: rotate(-45deg);
+       top: 0;
+    }
+    
+    header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+       transform: rotate(45deg);
+       top: 0;
+    }
+
+
+    
+    header{
+      max-height: 500px;
+    }
+    header #branding{
+        left: 20px;
+    }
+    
+    section .sub-head{
+        position: unset;
+        overflow: hidden;
+        
+    }
+
+    .sub-head h1 {  
+        position: absolute;
+        left: 20px;
+        top: 40px;
+        font-family: sans-serif;
+        align-items: center;
+        display: flex;
+        font-size: 40px;
+        line-height: 55px;
+        animation: unset;
+    }
+
+    .sub-head p {
+        position: absolute;
+        left: 20px;
+        top: 270px;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 30px;
+        animation: unset;
+    }
+        
+
+    .toyota img{
+        overflow: hidden;
+        width: 100%; 
+           
+    }
+    .toyota{
+        left: 185px;
+        top: 175px;
+        width: 50%;  
+    }
+
+    .button-1 {
+        top: 370px;
+        left: 20px;   
+    }
+
+   /*Eligibility*/
+   .elig-content{
+       overflow: hidden;
+   }
+  .elig {
+    position: absolute;
+    left: 40px;
+    top: 1250px;
+    font-size: 16px;
+    line-height: 30px;
+    width: 90%;
+    
+   }
+
+  .elig h1 {
+      font-size: 35px;
+      
+  }
+
+  .group img{
+    position: absolute;
+    left: 30px;
+    margin-top: 100px;
+    width: 80%;
+  }
+
+  .group {
+      position: unset;
+      margin-top: -20px;
+      overflow: hidden;
+  }
+
+  .bullet ul {
+    position: unset;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 25px;
+   }
+
+   .bullet ul li{
+       padding-left: 20px;
+   }
+
+  /*Available cars*/
+
+  .cars {
+    position: absolute;
+    left: 0px;
+    top: 1900px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    }
+
+  .cars h1 {
+    font-size: 35px;
+    text-align: center;
+    
+  }
+
+  .cars p {
+    font-size: 20px;
+    
+  }
+
+  .car1,
+  .car2,
+  .car3,
+  .car4
+  {
+    position: unset;   
+    width: 100%;
+    text-align: center;
+    
+  }
+
+
+
+  /*Contact Us*/
+
+  #chart {
+    position: absolute;
+min-height: 850px;
+width: 100%;
+left: px;
+top: 3550px;
+background: #1354DC;
+
+}
+
+.chart-bar {
+    position: unset;
+width: 200px;
+height: px;
+align-items: center;
+margin: 50px auto;
+
+
+}
+
+.contact {
+   position: unset;
+   margin-left: 20px ;
+   margin-top: -25px;
+   width: 90%;
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+
+/*Waiting list*/
+#list {
+    position: absolute;
+    width:100%;
+    min-height: 1000px;
+    left: 0px;
+    top: 4930px;
+    background: #F8F8F9;
+    
+    }
+    
+    
+    
+    
+    #list .waiting-list{
+        position: absolute;
+    width: 100%;
+    height: 336px;
+    left: 100px;
+    top: 50px;
+        }
+    
+        .waiting-list h1 {
+            font-size: 60px;
+            border-bottom: 2px solid #FD7B7E;
+            width: 340px;
+    
+        }
+    
+        .waiting-list p {
+            font-size: 18px;
+            line-height: 1.6em;
+            position: absolute;
+            top: 150px;
+    
+        }
+    
+    
+     #list form{
+        position: absolute;
+        left: 780px;
+        top: 180px;
+        width: 304px;
+        height: 60px;
+        font-size: 18px;
+        box-sizing: border-box;
+        line-height: 0%;
+            }
+    
+     #info input   {
+        width: 100%;
+        height: 17px;
+        margin-bottom: 20px;
+        background: #F8F8F9 ;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #979797;
+        font-size: 16px;
+        margin-top: 15px;
+        padding-bottom: 10px;
+    }        
+    
+    select{
+       width: 100%;
+       border: none;
+        outline: none;
+        border-bottom: 1px solid #979797;
+        background: #F8F8F9 ;
+        font-size: 16px;
+        padding-bottom: 10px;
+        margin-top: 15px; 
+    }        
+    
+          .button-2 {
+                width: 130px;
+                height: 50px;
+                border: 1px solid #FFFFFF;
+                box-sizing: border-box;
+                border-radius: 30px;
+                color: #fff;
+                background-color: #FD7B7E;
+                font-weight: bold;
+                margin-top: 40px;
+                outline: none;
+                cursor: pointer;
+            
+             }
+
+    /*Waiting list*/
+#list {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    top: 4250px;
+    
+    }
+    
+    
+    
+    
+    #list .waiting-list{
+        position: unset;
+    width: 80%;
+    height: 100%;
+    margin: 60px;
+    margin-top: 150px;
+        }
+    
+        .waiting-list h1 {
+            font-size: 40px;
+            border-bottom: 2px solid #FD7B7E;
+            width: 240px;
+    
+        }
+    
+        .waiting-list p {
+            font-size: 16px;
+            line-height: 1.6em;
+            position: unset;
+    
+        }
+    
+    
+     #list form{
+        position: absolute;
+        left: 0px;
+        top: 550px;
+        width: 70%;
+        height: 100%;
+        font-size: 16px;
+        box-sizing: border-box;
+        margin-top: 0px;
+        margin-left: 60px;
+            }
+           
+    
+    
+    .button-2 {
+      margin-top: 60px;
+            
+    }
+             
+
+/*About Us*/
+#About-us {
+    position: absolute;
+    top: 5256px; 
+    width: 100%;  
+} 
+
+.about{
+    margin: unset;
+}
+        
+#About-us h1 {
+font-size: 40px;
+line-height: 70px;
+
+
+}
+
+#About-us p {
+font-size: 16px;
+text-align: unset;
+font-weight: normal;
+}
+
+/*Footer*/
+#main-footer {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    top: 6100px;
+    background: #1354DC;
+    
+}
+
+
+footer a {
+    display: block;
+}
+
+
+footer #brand {
+    position: unset;
+    text-align: center;
+    color: #fff;
+    margin-top: 450px;
+    
+}
+
+footer #brand p {
+    margin-top: -20px;
+    position: unset;
+
+}
+
+
+
+footer nav {
+    position: unset;
+    display: block;
+    margin-top: -490px;
+    margin-left: 50px;
+}
+   
+footer .button-0 {
+    position: absolute;
+    top: 94px;
+    right: 80px;
+    width: 130px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #1354DC;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    transition-property: margin;
+    transition-duration: 0.5s;
+}
+
+footer .social {
+    position: unset;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+ 
+
+        
+}
+
+
+
+        
+    
